@@ -6,7 +6,7 @@ export default function App() {
       <View>
         <Text>Another piece of text!</Text>
       </View>
-      <Text>Hello World!</Text>
+      <Text style={styles.helloText}>Hello World!</Text>
       <Button title = "Tap me!" />
     </View>
   );
@@ -19,4 +19,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  helloText: {
+    margin: 16,
+    borderWidth: 1,
+    borderColor: "red", 
+    padding: 16,
+  }
 });
